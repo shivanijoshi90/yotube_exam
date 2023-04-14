@@ -25,38 +25,6 @@
 
 
     </FrameLayout>
-    <ImageView
-        android:id="@+id/imgphoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/img"
-        android:layout_marginTop="10dp"
-        android:scaleType="centerCrop"/>
-
-    <TextView
-        android:id="@+id/txtname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="aakash varma"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
-    <TextView
-        android:id="@+id/txttext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="how to make recipe"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
-    <TextView
-        android:id="@+id/txtdesc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="youtube easy recipe make with their"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
     <ListView
         android:id="@+id/List"
         android:layout_width="match_parent"
